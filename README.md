@@ -21,8 +21,13 @@ You can include those discounts by either uploading a file with the discounts us
 
 ```
 function setDiscounts() {
-  discounts["cloudfrontOut"]["United States"].rate = 0.1; // indicates the rate of cloundfrontOut for United States locations is is 10 cents/GB.
-  discounts["internetOut"]["US East (N. Virginia)"].rate = 0.1; // indicates the rate of internetOut for US East (N. Virginia) is 10 cents/GB.
-  discounts["crossAZ"].percentage = 0.5; // indicates a 50% discount for all crossAZ traffic.
+  // indicates the rate of cloundfrontOut for United States locations is is 10 cents/GB.
+  discounts["cloudfrontOut"]["United States"].rate = 0.1; 
+  
+  // indicates the rate of internetOut for US East (N. Virginia) is 10 cents/GB.
+  discounts["internetOut"]["US East (N. Virginia)"].rate = 0.1; 
+  
+  // indicates a 50% discount for all crossAZ traffic.
+  discounts["crossAZ"].percentage = 0.5; 
 }
 ```
