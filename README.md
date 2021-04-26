@@ -9,10 +9,11 @@ Some customers recieve discounts from AWS and the map can be updated to include 
 Discounts are defined in the following format:
 ```
 //Discounts
-// Format: discounts[datatype].rate will set the rate across all selectors (region/cloudfront location)
-//         discounts[datatype].percentage will give a discount across all selectors (region/cloudfront location).
-//         discounts[datatype][selector].percentage will give a discount based on a percentage of public pricing.
-//         discounts[datatype][selector].rate will set the rate of the service.
+// Format: 
+//    discounts[datatype].rate will set the rate across all selectors (region/cloudfront location)
+//    discounts[datatype].percentage will give a discount across all selectors (region/cloudfront location).
+//    discounts[datatype][selector].percentage will give a discount based on a percentage of public pricing.
+//    discounts[datatype][selector].rate will set the rate of the service.
 // datatypes: crossAZ,internetOut,albInOut,clbInOut,dcOut,crossRegion,cloudfrontAWS,cloudfrontOut
 // selectors: based on the datatype. Either region or cloudfront location.
 ```
