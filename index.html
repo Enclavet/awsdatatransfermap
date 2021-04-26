@@ -105,16 +105,6 @@
       reDrawPrices();
     }
     
-    function getPriceData() {
-      $.ajax({
-        url: "https://55hqug0fii.execute-api.us-east-1.amazonaws.com/test/costmap", 
-        crossDomain: true,
-        success: function(result){
-          
-        }
-      });
-    }
-    
     function drawPriceData(result) {
       costdata=result;
       console.log(costdata);
