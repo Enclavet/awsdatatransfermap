@@ -3,6 +3,9 @@
 ## Description
 HTML5 application that shows data transfer costs on AWS visually on a map. The application allows for changing the region and country (for edge pricing). 
 
+## Public Hosted application
+https://awscostmap.s3.amazonaws.com/index.html
+
 ## Discounts
 Some customers recieve discounts from AWS and the map can be updated to include those discounts. 
 
